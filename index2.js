@@ -25,25 +25,7 @@ let a = fun1();
 
 a.then((data) => {
   poeple = data.results;
-  // console.log(poeple)
 
-  // console.log(phone)
-
-  // function cvIterator(poeple) {
-  //     let nextIndex = 0;
-  //     return {
-  //         next: function () {
-  //             return nextIndex < poeple.length ? {
-  //                 value: poeple[nextIndex++],
-  //                 done: false
-  //             } : {
-  //                 done: true
-  //             }
-  //         }
-  //     }
-  // }
-
-  // const candidates = cvIterator(poeple);
   nextCv();
 
   let btn = document.getElementById("btn");
